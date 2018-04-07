@@ -191,16 +191,7 @@
       "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz",
       "version": "0.6.1"
     },
-    "node-static": {
-      "integrity": "sha512-bd7zO5hvCWzdglgwz9t82T4mYTEUzEG5pXnSqEzitvmEacusbhl8/VwuCbMaYR9g2PNK5191yBtAEQLJEmQh1A==",
-      "requires": {
-        "colors": "1.2.1",
-        "mime": "1.6.0",
-        "optimist": "0.6.1"
-      },
-      "resolved": "https://registry.npmjs.org/node-static/-/node-static-0.7.10.tgz",
-      "version": "0.7.10"
-    },
+    "node-static": "^0.7.10",
     "object-component": {
       "integrity": "sha1-8MaapQ78lbhmwYb0AKM3acsvEpE=",
       "resolved": "https://registry.npmjs.org/object-component/-/object-component-0.0.3.tgz",
