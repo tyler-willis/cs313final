@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Cooperative Drawing</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="cursors"></div>
+
+        <canvas id="paper" width="1400" height="860"></canvas>
+
+        <hgroup id="instructions">
+            <h1>Draw in the box!</h1>
+            <h2>You will draw together with anyone<br>else visiting the website</h2>
+            <h3>Reload the page to clear the canvas</h3>
+        </hgroup>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

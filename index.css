@@ -1,0 +1,13 @@
+body {
+}
+
+#instructions {
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+}
+
+canvas {
+    float: left;
+    border: 1px solid black;
+}
