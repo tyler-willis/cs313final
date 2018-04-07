@@ -1,10 +1,10 @@
 var app = require('http').createServer(handler),
 	io = require('socket.io').listen(app),
-	static = require('node-static'); // for serving files
+	static = require('node-static');
 
 var fileServer = new static.Server('./');
 	
-app.listen(80);
+app.listen(8080);
 
 function handler (request, response) {
 
