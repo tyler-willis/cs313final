@@ -6,6 +6,8 @@ var fileServer = new static.Server('./');
 	
 var port = process.env.PORT || 8080
 
+console.log(port);
+
 app.listen(port);
 
 function handler (request, response) {
