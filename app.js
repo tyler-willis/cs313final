@@ -4,7 +4,9 @@ var app = require('http').createServer(handler),
 
 var fileServer = new static.Server('./');
 	
-app.listen(8080);
+var port = process.env.PORT || 8080
+
+app.listen(port);
 
 function handler (request, response) {
 
