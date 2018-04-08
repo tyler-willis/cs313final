@@ -6,7 +6,7 @@ $(function(){
 
 	var url = 'https://coopdrawing.herokuapp.com:' + port;
     
-    console.log(url);
+    console.log(url)
 
 	var doc = $(document),
 		win = $(window),
@@ -97,4 +97,4 @@ $(function(){
 		ctx.stroke();
 	}
 
-});
+})(jQuery);
