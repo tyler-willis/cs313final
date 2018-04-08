@@ -1,4 +1,4 @@
-var app = require('https').createServer(handler),
+var app = require('http').createServer(handler),
 	io = require('socket.io').listen(app),
 	static = require('node-static');
 
