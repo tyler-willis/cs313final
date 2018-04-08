@@ -4,7 +4,7 @@ $(function(){
 		return false;
 	}
 
-	var url = 'https://coopdrawing.herokuapp.com:' + port;
+	var url = 'https://coopdrawing.herokuapp.com:';
     
     console.log(url)
 
